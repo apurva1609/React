@@ -20,9 +20,8 @@ const Navbar1 = () => {
           <Nav className="mx-auto">
             <Link to="/Navbar"><Nav.Link href="#home" >Home</Nav.Link></Link>
             <Link to="/cardd"><Nav.Link href="#About">About</Nav.Link></Link>
-            <Link to="/Textused"><Nav.Link href="#News">News</Nav.Link></Link> 
+            <Link to="/Textused/Tem"><Nav.Link href="#News">News</Nav.Link></Link> 
             <Link to="/contact"> <Nav.Link href="#Contact">Contact</Nav.Link></Link>
-           
           </Nav>
           <Link to="/login">
             <Button variant="dark">Login</Button>
